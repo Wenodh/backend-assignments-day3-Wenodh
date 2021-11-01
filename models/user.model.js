@@ -22,11 +22,15 @@ const User = new mongoose.Schema(
                 'Please fill a valid email address',
             ],
         },
-        phone: {},
+        phone: {
+            type: String,
+            required: true,
+            unique: true,
+            match: [/^\d{10}$/, 'Please fill a valid phone number'],
+        },
         password: {
             type: String,
             minlength: 8,
-            maxlength: 16,
             trim: true,
             required: true,
         },
