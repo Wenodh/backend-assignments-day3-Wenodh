@@ -1,0 +1,32 @@
+{
+    "name": "backend-assignments-day3-Wenodh",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Wenodh/backend-assignments-day3-Wenodh.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Wenodh/backend-assignments-day3-Wenodh/issues"
+    },
+    "homepage": "https://github.com/Wenodh/backend-assignments-day3-Wenodh#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.12",
+        "mongoose-paginate-v2": "^1.4.2"
+    }
+}
